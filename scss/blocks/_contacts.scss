@@ -1,0 +1,36 @@
+.contacts {
+}
+.container {
+}
+.contacts__inner {
+    // margin-top: -100px;
+}
+.contacts__ways-cards {
+    display: flex;
+    gap: 20px;
+    column-gap: 21px;
+    margin-top: -100px;
+}
+.contact-card{
+    width: 386px;
+    background-color: $white;
+    padding-left: 39px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+.contact-card__option {
+    padding-top: 39px;
+}
+.card__option-img {
+}
+.contact-card__title {
+    margin-top: 21px;
+    color: $dark;
+    font-weight: 700;
+    letter-spacing: 2.7px;
+}
+.contact-card__text {
+    color: $dim;
+    margin-top: 15px;
+    padding-bottom: 37px;
+    font-size: 18px;
+}

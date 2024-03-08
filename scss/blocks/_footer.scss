@@ -1,0 +1,31 @@
+.footer {
+    padding: 66px 0 61px 0;
+    color: $dark;
+}
+.footer__inner {
+}
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__left {
+
+}
+.footer__right {
+    display: flex;
+    column-gap: 21px;
+
+}
+.footer__link {
+
+}
+@media (max-width: 500px) {
+    .footer {
+        padding: 20px 10px;
+        &__row {
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+    }
+}
